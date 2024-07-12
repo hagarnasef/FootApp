@@ -1,0 +1,45 @@
+.home{
+    background-image: url(../img/9c7af5afc30801bf064f85c5d5358b25a01a8321.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.home1{
+    background-color: rgba(0, 0,0,0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+h2::after{
+    content: "|";
+    animation-name: type;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes type {
+    0%{content: "|";}
+    10%{content: "D";}
+    20%{content: "Do";}
+    30%{content: "Don";}
+    40%{content: "Donu";}
+    50%{content: "Donut";}
+    60%{content: "Donuts";}
+    70%{content: "Donut";}
+    80%{content: "Donu";}
+    90%{content: "Don";}
+    100%{content: "Do";}
+    
+}
+/* ../img/bg.jpg */
+/* 0%{content: "|";}
+10%{content: "F";}
+20%{content: "Fr";}
+30%{content: "Fro";}
+40%{content: "Fron";}
+50%{content: "Front";}
+60%{content: "Fron";}
+70%{content: "Fro";}
+80%{content: "Fr";}
+90%{content: "F";}
+100%{content: "|";} */
